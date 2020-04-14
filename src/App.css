@@ -1,0 +1,59 @@
+
+.heading{
+  color: #861098;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.btn-plus {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  
+  margin-top: -35px;
+}
+.del{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+ 
+ 
+
+ position: absolute;
+ right: 0%;
+ margin-right: 60px;
+ 
+ justify-content: center; 
+}
+.plus{
+  font-size: 20px;
+  
+}
+
+#inp{
+background-color: rgb(84, 202, 202);
+  height: 50px;
+ 
+}
+.card-body{
+  background-color: #3f3160
+}
+.line{
+  height: 2px;
+  background-color: rgb(143, 79, 79);
+  margin-top: 50px;
+}
+li{
+  background-color: hsla(310, 83%, 39%, 0.493) ;
+  color: white;
+  height: 60px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  margin-left: -10px;
+  margin-right: 28px;
+  border-radius: 1%;
+  padding: 12px;
+  font-weight: bold;
+  border: 2px solid rgb(209, 174, 201);
+  font-family: "Lucida Console", Courier, monospace;}
