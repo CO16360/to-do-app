@@ -61,12 +61,12 @@ class App extends React.Component {
           <div className="row">
             <div className="col-md-6 offset-3"  >
               <div className="card">
-                <h1 className="text-center heading">ToDo APP</h1>
+                <h1 className="text-center heading">Goal Keeper</h1>
                 <div className="card-body">
 
 
 
-                  <span><input type="text" autoFocus name="todo" id="inp" className="form-control" value={this.state.newItem} onChange={e => this.updateInput(e.target.value)} placeholder="Enter a to-do task here " />
+                  <span><input type="text" autoFocus name="todo" id="inp" className="form-control" value={this.state.newItem} onChange={e => this.updateInput(e.target.value)} placeholder="Enter a to-do task here"/>
                     <div align="center"><div className="line"></div><button type="button" className="btn btn-plus btn-warning" disabled={!this.state.newItem.length} onClick={() => this.addItem(this.state.newItem)}><b className="plus">+</b></button></div></span>
 
 
